@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+/* ----------------------------------------------------- */
+/* ----------------------------------------------------- */
+/* ----------------------------------------------------- */
+
+body {
+  background-color: rgb(234, 249, 255);
+}
+
+.center-box {
+  display: flex;
+  justify-content: center;
+}
+
+.window-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-box {
+  display: flex;
+  justify-content: center;
+}
+
+.palindrome-box {
+  text-align: center;
+  width: 400px;
+  height: 100%;
+  padding: 15px;
+  margin: 20px;
+  background-color: rgb(202, 240, 255);
+  box-shadow: 0px 0px 30px rgba(45, 169, 218, 0.548);
+}
+
+.palindrome-head-text {
+  padding: 20px;
+  font-size: 32px;
+  font-weight: 500;
+  color: rgb(19, 118, 199);
+  text-shadow: 1px 1px 10px #3669d1b9;
+  text-transform: uppercase;
+}
+
+.palindrome-input {
+  border-radius: 5px;
+  border: 0px solid rgb(153, 153, 153);
+  padding: 15px;
+  width: 300px;
+  margin-bottom: 0px;
+  box-shadow: 0px 8px 15px rgba(9, 52, 92, 0.301);
+}
+
+.palindrome-input:focus {
+  outline: none !important;
+  border: 1px solid rgb(19, 118, 199);
+}
+
+.btn-check {
+  width: 100px;
+  height: 45px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(9, 52, 92, 0.301);
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease 0s;
+  margin: 20px 10px;
+}
+
+.btn-check:hover {
+  background-color: rgb(19, 118, 199);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.result-box {
+  padding-bottom: 15px;
+  font-size: 20px;
+  word-wrap: break-word;
+  width: 85%;
+}
